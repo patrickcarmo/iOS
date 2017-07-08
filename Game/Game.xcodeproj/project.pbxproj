@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD6893661F113984002ED354 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6893651F113984002ED354 /* GameOverScene.swift */; };
 		CD7F69B31F07DEE90038F058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F69B21F07DEE90038F058 /* AppDelegate.swift */; };
 		CD7F69B71F07DEE90038F058 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD7F69B61F07DEE90038F058 /* Actions.sks */; };
 		CD7F69B91F07DEE90038F058 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F69B81F07DEE90038F058 /* GameScene.swift */; };
@@ -22,6 +23,8 @@
 		CD7F69F01F07E0A40038F058 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7F69EA1F07E0A40038F058 /* player@2x.png */; };
 		CD7F69F11F07E0A40038F058 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7F69EB1F07E0A40038F058 /* projectile.png */; };
 		CD7F69F21F07E0A40038F058 /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7F69EC1F07E0A40038F058 /* projectile@2x.png */; };
+		CDD497FB1F1129EF0059323C /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = CDD497F91F1129EF0059323C /* background-music-aac.caf */; };
+		CDD497FC1F1129EF0059323C /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = CDD497FA1F1129EF0059323C /* pew-pew-lei.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD6893651F113984002ED354 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		CD7F69AF1F07DEE90038F058 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7F69B21F07DEE90038F058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7F69B61F07DEE90038F058 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		CD7F69EA1F07E0A40038F058 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "player@2x.png"; path = "../../../../../Downloads/recursos/sprites/player@2x.png"; sourceTree = "<group>"; };
 		CD7F69EB1F07E0A40038F058 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = projectile.png; path = ../../../../../Downloads/recursos/sprites/projectile.png; sourceTree = "<group>"; };
 		CD7F69EC1F07E0A40038F058 /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "projectile@2x.png"; path = "../../../../../Downloads/recursos/sprites/projectile@2x.png"; sourceTree = "<group>"; };
+		CDD497F91F1129EF0059323C /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "background-music-aac.caf"; path = "../../../../../Downloads/OneDrive-2017-07-08/background-music-aac.caf"; sourceTree = "<group>"; };
+		CDD497FA1F1129EF0059323C /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pew-pew-lei.caf"; path = "../../../../../Downloads/OneDrive-2017-07-08/pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 		CD7F69B11F07DEE90038F058 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				CDD497F61F1124C70059323C /* Sound */,
 				CD7F69E61F07DF600038F058 /* imagens */,
 				CD7F69B21F07DEE90038F058 /* AppDelegate.swift */,
 				CD7F69B61F07DEE90038F058 /* Actions.sks */,
@@ -122,6 +129,7 @@
 				CD7F69BF1F07DEE90038F058 /* Assets.xcassets */,
 				CD7F69C11F07DEE90038F058 /* LaunchScreen.storyboard */,
 				CD7F69C41F07DEE90038F058 /* Info.plist */,
+				CD6893651F113984002ED354 /* GameOverScene.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -155,6 +163,15 @@
 				CD7F69EC1F07E0A40038F058 /* projectile@2x.png */,
 			);
 			name = imagens;
+			sourceTree = "<group>";
+		};
+		CDD497F61F1124C70059323C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				CDD497F91F1129EF0059323C /* background-music-aac.caf */,
+				CDD497FA1F1129EF0059323C /* pew-pew-lei.caf */,
+			);
+			name = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,11 +286,13 @@
 				CD7F69EE1F07E0A40038F058 /* monster@2x.png in Resources */,
 				CD7F69C01F07DEE90038F058 /* Assets.xcassets in Resources */,
 				CD7F69F11F07E0A40038F058 /* projectile.png in Resources */,
+				CDD497FB1F1129EF0059323C /* background-music-aac.caf in Resources */,
 				CD7F69C31F07DEE90038F058 /* LaunchScreen.storyboard in Resources */,
 				CD7F69ED1F07E0A40038F058 /* monster.png in Resources */,
 				CD7F69B71F07DEE90038F058 /* Actions.sks in Resources */,
 				CD7F69F01F07E0A40038F058 /* player@2x.png in Resources */,
 				CD7F69F21F07E0A40038F058 /* projectile@2x.png in Resources */,
+				CDD497FC1F1129EF0059323C /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +319,7 @@
 			files = (
 				CD7F69B91F07DEE90038F058 /* GameScene.swift in Sources */,
 				CD7F69BB1F07DEE90038F058 /* GameViewController.swift in Sources */,
+				CD6893661F113984002ED354 /* GameOverScene.swift in Sources */,
 				CD7F69B31F07DEE90038F058 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +565,7 @@
 				CD7F69DF1F07DEEA0038F058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD7F69E01F07DEEA0038F058 /* Build configuration list for PBXNativeTarget "GameTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +574,7 @@
 				CD7F69E21F07DEEA0038F058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD7F69E31F07DEEA0038F058 /* Build configuration list for PBXNativeTarget "GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +583,7 @@
 				CD7F69E51F07DEEA0038F058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
