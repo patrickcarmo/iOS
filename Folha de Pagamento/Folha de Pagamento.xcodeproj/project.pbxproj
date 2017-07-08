@@ -14,6 +14,7 @@
 		CD668D491F0821B000C14F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD668D471F0821B000C14F2C /* LaunchScreen.storyboard */; };
 		CD668D541F0821B000C14F2C /* Folha_de_PagamentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD668D531F0821B000C14F2C /* Folha_de_PagamentoTests.swift */; };
 		CD668D5F1F0821B000C14F2C /* Folha_de_PagamentoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD668D5E1F0821B000C14F2C /* Folha_de_PagamentoUITests.swift */; };
+		CD668D6D1F0821E200C14F2C /* salario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD668D6C1F0821E200C14F2C /* salario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD668D5A1F0821B000C14F2C /* Folha de PagamentoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folha de PagamentoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD668D5E1F0821B000C14F2C /* Folha_de_PagamentoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folha_de_PagamentoUITests.swift; sourceTree = "<group>"; };
 		CD668D601F0821B000C14F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD668D6C1F0821E200C14F2C /* salario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CD668D451F0821B000C14F2C /* Assets.xcassets */,
 				CD668D471F0821B000C14F2C /* LaunchScreen.storyboard */,
 				CD668D4A1F0821B000C14F2C /* Info.plist */,
+				CD668D6C1F0821E200C14F2C /* salario.swift */,
 			);
 			path = "Folha de Pagamento";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD668D411F0821B000C14F2C /* ViewController.swift in Sources */,
+				CD668D6D1F0821E200C14F2C /* salario.swift in Sources */,
 				CD668D3F1F0821B000C14F2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD668D3A1F0821B000C14F2C"
-               BuildableName = "Folha de Pagamento.app"
-               BlueprintName = "Folha de Pagamento"
-               ReferencedContainer = "container:Folha de Pagamento.xcodeproj">
+               BlueprintIdentifier = "CDE63C901F1105D8000CDF3D"
+               BuildableName = "internacionalizacao.app"
+               BlueprintName = "internacionalizacao"
+               ReferencedContainer = "container:internacionalizacao.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD668D4E1F0821B000C14F2C"
-               BuildableName = "Folha de PagamentoTests.xctest"
-               BlueprintName = "Folha de PagamentoTests"
-               ReferencedContainer = "container:Folha de Pagamento.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD668D591F0821B000C14F2C"
-               BuildableName = "Folha de PagamentoUITests.xctest"
-               BlueprintName = "Folha de PagamentoUITests"
-               ReferencedContainer = "container:Folha de Pagamento.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD668D3A1F0821B000C14F2C"
-            BuildableName = "Folha de Pagamento.app"
-            BlueprintName = "Folha de Pagamento"
-            ReferencedContainer = "container:Folha de Pagamento.xcodeproj">
+            BlueprintIdentifier = "CDE63C901F1105D8000CDF3D"
+            BuildableName = "internacionalizacao.app"
+            BlueprintName = "internacionalizacao"
+            ReferencedContainer = "container:internacionalizacao.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD668D3A1F0821B000C14F2C"
-            BuildableName = "Folha de Pagamento.app"
-            BlueprintName = "Folha de Pagamento"
-            ReferencedContainer = "container:Folha de Pagamento.xcodeproj">
+            BlueprintIdentifier = "CDE63C901F1105D8000CDF3D"
+            BuildableName = "internacionalizacao.app"
+            BlueprintName = "internacionalizacao"
+            ReferencedContainer = "container:internacionalizacao.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD668D3A1F0821B000C14F2C"
-            BuildableName = "Folha de Pagamento.app"
-            BlueprintName = "Folha de Pagamento"
-            ReferencedContainer = "container:Folha de Pagamento.xcodeproj">
+            BlueprintIdentifier = "CDE63C901F1105D8000CDF3D"
+            BuildableName = "internacionalizacao.app"
+            BlueprintName = "internacionalizacao"
+            ReferencedContainer = "container:internacionalizacao.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,14 @@
+/* 
+  File.strings
+  internacionalizacao
+
+  Created by Patrick on 08/07/17.
+  Copyright © 2017 Patrick. All rights reserved.
+*/
+
+"titulo" = "Spanish";
+"botao" = "Calcular";
+"par" = "El valor introducido es Par";
+"impar" = "El valor introducido es Impar";
+"resultado" = "Resultado";
+"descricao" = "Escriba un número:";

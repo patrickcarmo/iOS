@@ -1,0 +1,14 @@
+/* 
+  File.strings
+  internacionalizacao
+
+  Created by Patrick on 08/07/17.
+  Copyright © 2017 Patrick. All rights reserved.
+*/
+
+"titulo" = "English";
+"botao" = "Calculate";
+"par" = "The value entered is Even";
+"impar" = "The value entered is Odd";
+"resultado" = "Result";
+"descricao" = "Enter a number:";
